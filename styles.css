@@ -1,0 +1,287 @@
+body {
+    margin: 0 auto;
+    font-family: Nunito Sans, sans-serif;
+    color: #4B4443;
+    line-height: 1.6;
+}
+
+.main-container {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+legend {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0px;
+}
+
+
+.name {
+	margin-top: 10px;
+}
+
+.headline {
+	margin-top: 30px;
+}
+
+p {
+	color: grey;
+	margin-bottom: 30px;
+}
+
+.banner {
+	background: #1F4172;
+	text-decoration: none;
+	color: white;
+    text-align: center;
+    width: 100%;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	display: block;
+}
+
+.headline {
+	text-align: center
+}
+
+fieldset {
+	border: none;
+	padding: 0px;
+}
+
+input[type=text], select {
+	 padding: 15px 25px;
+	 margin: 10px 0;
+	 border: 1px solid #ccc;
+	 border-radius: 4px;
+	 box-sizing: border-box;
+	 background-color: #F3F4F7;
+	 border:none;
+	 height: 45px;
+	 display: inline-block;
+	 color: #4B4443;
+} 
+
+input[type=submit] {
+	 width: 100%;
+	 background-color: #3acec2;
+	 color: white;
+	 padding: 14px 25px;
+	 margin: 8px 0;
+	 border: none;
+	 border-radius: 4px;
+	 cursor: pointer;
+	 font-size: 1em;
+}
+
+.line {
+	margin-top: 10px;
+	margin-bottom: 1px;
+}
+
+.line3 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+input::-webkit-input-placeholder {
+	color: grey;
+    text-align: right;
+    font-style: italic;
+    font-size: 1.25em;
+
+}
+input:-moz-placeholder {
+    text-align: right;
+    font-style: italic;
+}
+input::-moz-placeholder {
+    text-align: right;
+    font-style: italic;
+}
+input:-ms-input-placeholder {
+    text-align: right;
+    font-style: italic;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+    border:none;
+    background-color: #F3F4F7;
+    border-radius: 5px;
+    resize: none;
+}
+
+.copyright {
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 200px;
+	color: lightgrey;
+}
+
+.flex label {
+	min-width: 200px;
+	margin: auto;
+	text-align: left;
+
+}
+
+.flex input {
+	display: block;
+	width: 100%;
+	flex: 1;
+}
+
+#state {
+	display: block;
+	width: 100%;
+	flex: 1;
+	font-size: 1em;
+	color: grey;
+}
+
+.zip  {
+	width: 40%;
+}
+
+input:focus, 
+textarea:focus {
+	background-color: #eff5fa;
+}
+
+input:hover, 
+textarea:hover {
+	background-color: pink;
+}
+
+input:active, 
+textarea:active {
+	background-color: #fff6f6;
+}
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {	
+	
+.main-container {
+	max-width: 750px;
+	margin: 0 auto;
+}
+	
+.banner {
+	width: 100%;
+	align-items: center;
+}
+	
+.header {
+	max-width: 100%
+}
+
+.flex {
+	display: flex;
+}
+
+.flex label {
+	min-width: 200px;
+	margin: auto;
+}
+
+.flex input {
+	display: inline-block;
+	width: 60%;
+	flex: 1;
+}
+
+#state {
+	display: inline-block;
+	width: 60%;
+	flex: 1;
+}
+
+.zip {
+	width: 60%;
+}
+
+input:focus, 
+textarea:focus {
+	background-color: #eff5fa;
+}
+
+input:hover, 
+textarea:hover {
+	background-color: pink;
+}
+
+input:active, 
+textarea:active {
+	background-color: #fff6f6;
+}
+
+}
+
+
+@media (min-width: 1025px) {
+
+.main-container {
+	width: 45%;
+	margin: 0 auto;
+}
+
+.line {
+	max-width: 100%;
+}
+
+button {
+	 width: 100%;
+}
+
+textarea {
+	 width: 100%;
+}
+
+input[type=text], select {
+	display: inline-block;
+	width: 100%;
+}
+
+.flex label {
+	display: inline-block;
+	min-width: 200px;
+	margin: auto;
+}
+
+.zip  {
+	width: 60%;
+}
+
+input:focus, 
+textarea:focus {
+	background-color: #eff5fa;
+}
+
+input:hover, 
+textarea:hover {
+	background-color: pink;
+}
+
+input:active, 
+textarea:active {
+	background-color: #fff6f6;
+}
+
+}
