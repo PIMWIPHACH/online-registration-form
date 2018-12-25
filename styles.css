@@ -59,19 +59,6 @@ fieldset {
 	padding: 0px;
 }
 
-input[type=text], select {
-	 padding: 15px 25px;
-	 margin: 10px 0;
-	 border: 1px solid #ccc;
-	 border-radius: 4px;
-	 box-sizing: border-box;
-	 background-color: #F3F4F7;
-	 border:none;
-	 height: 45px;
-	 display: inline-block;
-	 color: #4B4443;
-} 
-
 input[type=submit] {
 	 width: 100%;
 	 background-color: #3acec2;
@@ -140,10 +127,21 @@ textarea {
 
 }
 
-.flex input {
+.flex input,
+select {
 	display: block;
 	width: 100%;
 	flex: 1;
+	padding: 15px 25px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background-color: #F3F4F7;
+	border:none;
+	height: 45px;
+	display: inline-block;
+	color: #4B4443;
 }
 
 #state {
@@ -176,7 +174,7 @@ textarea:active {
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {	
+@media (min-width: 768px) {	
 	
 .main-container {
 	max-width: 750px;
